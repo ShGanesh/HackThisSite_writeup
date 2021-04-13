@@ -1,5 +1,5 @@
 # HackThisSite-> Stego
-## Level 4
+## Level 6
 
 Download the .png and look at its hex using your favourite hex editor.  
 
