@@ -50,7 +50,7 @@ You can use this Code but try to make one on your own. ***Google*** is your best
 ## Level 7  
 We can see that the system is very immature and uses UNIX.  
 Let's try to list all files present in the present directory.  
-```; ls```  
+Input: ```; ls```  
 Semicolon used to end line, ls lists all files present in current directory.  
 We can now see that after the calender there are a few other elements there:  
 *index.php  
