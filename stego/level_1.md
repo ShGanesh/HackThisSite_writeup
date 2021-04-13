@@ -2,17 +2,17 @@
 # HackThisSite-> Stego
 ## Level 1
 
-Download the file and open it in your favourite hex editor.
-*Hint: This is an encoded message, the only tip you get is '2 null bytes'*
+Download the file and open it in your favourite hex editor.  
+*Hint: This is an encoded message, the only tip you get is '2 null bytes'*  
 
-Null bytes are... "00" (without the quotation marks)
-Search in the hex editor: "00 00"
+Null bytes are... "`00`" (without the quotation marks),  
+Search in the hex editor: "`00 00`"  
 
-In one part you will see something like this:
+In one part you will see something like this:  
 >    "2d 3r 00 16 16 17 17 17 16 16 17 ... 17 00 6e f1"
 
-We can observe that there are many 16s and 17s between the two 00.
-Let 16 correspond to 0 and 17 correspond to 1 *(because come on they look like binaries)*. You can use the .py code in this directory.
+We can observe that there are many **16**s and **17**s between the two `00`.  
+Let **16** correspond to 0 and **17** correspond to **1** *(because come on they look like binaries)*. You can use the .py code in this directory.
 
 After the Hex have been converted into binary, Try it in an online Hex-to-Text converter.
 Wrong answer?
@@ -29,3 +29,4 @@ Attept it yourself first. If you don't understand try visiting the level_1.py th
 
 
 If you used my code you will get many potential answers. Try them out!
+ 
