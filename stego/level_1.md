@@ -16,17 +16,6 @@ Let 16 correspond to 0 and 17 correspond to 1 *(because come on they look like b
 
 
 // Transfer code to new .py file
-`
-a = "16 16 16 17 17 17 16 17 ..."
-ans = ""
 
-for i in tuple(a.split(" ")):
-    if i == "16":
-        ans += "0"
-    else:
-        ans += "1"
-
-print(ans)
-`
 
 The answer will be //To be completed
