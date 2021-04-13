@@ -23,9 +23,17 @@ def div(s):
         print("Inadequate len", len(s))
 
 
-# main
+# Main
 
-a = ""          # Paste binary here
-if len(a) == 55:
-    mod(a)
+hexes = "16 16 16 17 17 17 16 17 ..."  # Paste the hex codes here
+ans = ""
+
+for i in tuple(hexes.split(" ")):
+    if i == "16":
+        ans += "0"
+    else:
+        ans += "1"
+`
+if len(ans) == 55:
+    mod(ans)
     
