@@ -15,6 +15,7 @@ We can observe that there are many 16s and 17s between the two 00.
 Let 16 correspond to 0 and 17 correspond to 1 *(because come on they look like binaries)*. You can use this .py code for that.
 
 
+// Transfer code to new .py file
 `
 a = "16 16 16 17 17 17 16 17 ..."
 ans = ""
