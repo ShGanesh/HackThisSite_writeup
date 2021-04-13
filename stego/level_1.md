@@ -16,7 +16,7 @@ Let 16 correspond to 0 and 17 correspond to 1 *(because come on they look like b
 
 
 `
-a = "16 16 16 17 17 17 16 17"
+a = "16 16 16 17 17 17 16 17 ..."
 ans = ""
 
 for i in tuple(a.split(" ")):
