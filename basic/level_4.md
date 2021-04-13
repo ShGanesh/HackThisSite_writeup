@@ -1,6 +1,6 @@
 ## Level 4
 
-`<input type="hidden" name="to" value="sam@hackthissite.org">
+`<input type="hidden" name="to" value="sam@hackthissite.org">  
 <input type="submit" value="Send password to Sam">
 `
 
