@@ -46,3 +46,23 @@ print(ans)
 > Output: lllll   
 
 You can use this Code but try to make one on your own. ***Google*** is your best friend!
+
+## Level 7  
+We can see that the system is very immature and uses UNIX.  
+Let's try to list all files present in the present directory.  
+```; ls```  
+Semicolon used to end line, ls lists all files present in current directory.  
+We can now see that after the calender there are a few other elements there:  
+*index.php  
+*level7.php
+*cal.pl
+*.
+*..
+*k1kh31b1n55h.php  
+
+Nice, this k1something5h.php looks interesting.  
+Try putting 'k1something5h' into the password. Does it work?   
+So, go to   
+> https://www.hackthissite.org/missions/basic/7/k1kh31b1n55h.php  
+
+Done.
