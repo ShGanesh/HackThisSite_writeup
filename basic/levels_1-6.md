@@ -43,5 +43,6 @@ for i in range(len(st)):
     ans += chr(ord(st[i])-i)      # Decreasing ASCII value by the character's position in the string.   
 print(ans)
 ```
-> Output: lllll  
-Use this Code
+> Output: lllll   
+
+You can use this Code but try to make one on your own. ***Google*** is your best friend!
