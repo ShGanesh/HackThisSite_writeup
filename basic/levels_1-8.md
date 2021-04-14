@@ -66,3 +66,24 @@ So, go to
 > https://www.hackthissite.org/missions/basic/7/k1kh31b1n55h.php  
 
 Done.
+
+## Level 8  
+Here too we can se that like the previous level we need to list all files in that directory.  
+Let's try Input: ```; ls```   
+>Output: Hi, ; ls! Your name contains 4 characters.  
+
+But it takes the whole string as input rather than letting it break. What if we encapsulate the payload in a comment? Comments arent processed right?  
+Let's Try Input: ```<!--; ls```>  
+>Output: *If you are trying to use server side includes to solve the challenge, you are on the right track: but I have limited the commands allowed to ones >relevant towards finding the password file for security reasons(because there will always be that one person who decides to execute some rather nasty commands). >So please manipulate your code so that it is a little more pertaining to the level.*  
+
+Let's Ask for help from out=r best friend ***Google***!   
+Since the level hint hinted about SSI, we shall resecrh about it!  
+Found: https://owasp.org/www-community/attacks/Server-Side_Includes_(SSI)_Injection  
+
+Here we can see prebuilt commmands. Now trying 
+Input: ```<!--#exec cmd="ls ../"-->``` 
+> Output: Hi, austuffvc.php index.php level8.php tmp! Your name contains 39 characters.
+
+Yay! We got the list of files here!
+Now you know what to do!
+
