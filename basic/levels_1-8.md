@@ -81,9 +81,18 @@ Since the level hint hinted about SSI, we shall resecrh about it!
 Found: https://owasp.org/www-community/attacks/Server-Side_Includes_(SSI)_Injection  
 
 Here we can see prebuilt commmands. Now trying 
-Input: ```<!--#exec cmd="ls ../"-->``` 
+Input: ```<!--#exec cmd="ls ../"-->```                          // Trying to list the previous directory, as current directory is the php len() calculator
 > Output: Hi, austuffvc.php index.php level8.php tmp! Your name contains 39 characters.
 
 Yay! We got the list of files here!
 Now you know what to do!
 
+# Level 9
+In the hints it mentions: *"in my attempt to limit people to using server side includes to display the directory listing to level 8 only, I have mistakenly screwed up somewhere.. there is a way to get the obscured level 9 password. "*
+
+This means we have to go back to Level 8.
+On trying multiple commands I was rebuffed by the authou;s "attempt to limit people".
+So we shall use himanity's onlybackup plan whenever anything goes sideways: Hit and try!
+
+
+input: ```<!--#exec cmd="ls ../../9"-->```
